@@ -1,0 +1,159 @@
+{
+  "training_results": {
+    "best_val_acc": 0.6,
+    "best_metrics": {
+      "accuracy": 0.6,
+      "precision": 0.36,
+      "recall": 0.6,
+      "f1": 0.45,
+      "confusion_matrix": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "train_history": {
+      "train_loss": [
+        0.7119261622428894,
+        0.6781042814254761,
+        0.6752087473869324,
+        0.7016281187534332,
+        0.6739100217819214
+      ],
+      "train_acc": [
+        0.3548387096774194,
+        0.6451612903225806,
+        0.6774193548387096,
+        0.45161290322580644,
+        0.5483870967741935
+      ],
+      "val_loss": [
+        0.6912824511528015,
+        0.6874270439147949,
+        0.6814804077148438,
+        0.6765251159667969,
+        0.6719985604286194
+      ],
+      "val_acc": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.5555555555555556,
+    "precision": 0.30864197530864196,
+    "recall": 0.5555555555555556,
+    "f1": 0.39682539682539686,
+    "confusion_matrix": [
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ]
+  },
+  "model_config": {
+    "vocab_size": 75,
+    "glove_dim": 300,
+    "roberta_model": "roberta-base",
+    "num_classes": 2,
+    "dropout_rate": 0.3,
+    "fusion_method": "concatenate"
+  },
+  "data_info": {
+    "vocab_size": 75,
+    "num_classes": 2,
+    "train_size": 31,
+    "val_size": 5,
+    "test_size": 9,
+    "vocab": {
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "<START>": 2,
+      "<END>": 3,
+      "you're": 4,
+      "such": 5,
+      "an": 6,
+      "amazing": 7,
+      "person,": 8,
+      "keep": 9,
+      "up": 10,
+      "the": 11,
+      "great": 12,
+      "work!": 13,
+      "really": 14,
+      "\ud83d\ude0a": 15,
+      "i": 16,
+      "love": 17,
+      "your": 18,
+      "creativity": 19,
+      "and": 20,
+      "positive": 21,
+      "attitude": 22,
+      "thanks": 23,
+      "for": 24,
+      "sharing": 25,
+      "this": 26,
+      "helpful": 27,
+      "information": 28,
+      "job": 29,
+      "on": 30,
+      "presentation": 31,
+      "today": 32,
+      "so": 33,
+      "stupid": 34,
+      "worthless": 35,
+      "[USER]": 36,
+      "nobody": 37,
+      "likes": 38,
+      "you,": 39,
+      "just": 40,
+      "give": 41,
+      "ugly": 42,
+      "should": 43,
+      "disappear": 44,
+      "kill": 45,
+      "yourself,": 46,
+      "loser": 47,
+      "what": 48,
+      "a": 49,
+      "beautiful": 50,
+      "day": 51,
+      "walk": 52,
+      "looking": 53,
+      "forward": 54,
+      "to": 55,
+      "weekend": 56,
+      "pathetic": 57,
+      "everyone": 58,
+      "knows": 59,
+      "it": 60,
+      "hope": 61,
+      "you": 62,
+      "have": 63,
+      "wonderful": 64,
+      "trash": 65,
+      "always": 66,
+      "will": 67,
+      "be": 68,
+      "congratulations": 69,
+      "achievement": 70,
+      "go": 71,
+      "die": 72,
+      "in": 73,
+      "hole": 74
+    }
+  }
+}
