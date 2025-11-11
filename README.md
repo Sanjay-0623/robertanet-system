@@ -73,7 +73,7 @@ This project implements a cyberbullying detection system using a custom RoBERTa-
 - High-risk detections and alerts are shown in the dashboard for review.
 
 ## Authors
-- Your Name Here
+- Sanjay
 
 ## License
 This project is for educational and research purposes.
